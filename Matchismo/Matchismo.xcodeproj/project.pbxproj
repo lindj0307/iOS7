@@ -58,14 +58,10 @@
 		D49828101BC3B319006B2D3E /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				D49828141BC3B319006B2D3E /* AppDelegate.h */,
-				D49828151BC3B319006B2D3E /* AppDelegate.m */,
 				D49828171BC3B319006B2D3E /* ViewController.h */,
 				D49828181BC3B319006B2D3E /* ViewController.m */,
 				D498281A1BC3B319006B2D3E /* Main.storyboard */,
 				D498281D1BC3B319006B2D3E /* Assets.xcassets */,
-				D498281F1BC3B319006B2D3E /* LaunchScreen.storyboard */,
-				D49828221BC3B319006B2D3E /* Info.plist */,
 				D49828111BC3B319006B2D3E /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -74,6 +70,10 @@
 		D49828111BC3B319006B2D3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D498281F1BC3B319006B2D3E /* LaunchScreen.storyboard */,
+				D49828221BC3B319006B2D3E /* Info.plist */,
+				D49828141BC3B319006B2D3E /* AppDelegate.h */,
+				D49828151BC3B319006B2D3E /* AppDelegate.m */,
 				D49828121BC3B319006B2D3E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -298,6 +298,7 @@
 				D49828271BC3B319006B2D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
