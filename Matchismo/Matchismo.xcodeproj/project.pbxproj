@@ -13,6 +13,9 @@
 		D498281C1BC3B319006B2D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D498281A1BC3B319006B2D3E /* Main.storyboard */; };
 		D498281E1BC3B319006B2D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D498281D1BC3B319006B2D3E /* Assets.xcassets */; };
 		D49828211BC3B319006B2D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D498281F1BC3B319006B2D3E /* LaunchScreen.storyboard */; };
+		D4D2760C1BC50D2600CE6FFC /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D2760B1BC50D2600CE6FFC /* PlayingCard.m */; settings = {ASSET_TAGS = (); }; };
+		D4D276111BC50D7700CE6FFC /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D2760E1BC50D7700CE6FFC /* Card.m */; settings = {ASSET_TAGS = (); }; };
+		D4D276121BC50D7700CE6FFC /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D276101BC50D7700CE6FFC /* Deck.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		D498281D1BC3B319006B2D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D49828201BC3B319006B2D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D49828221BC3B319006B2D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D2760A1BC50D2600CE6FFC /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		D4D2760B1BC50D2600CE6FFC /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
+		D4D2760D1BC50D7700CE6FFC /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		D4D2760E1BC50D7700CE6FFC /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		D4D2760F1BC50D7700CE6FFC /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		D4D276101BC50D7700CE6FFC /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 				D498281A1BC3B319006B2D3E /* Main.storyboard */,
 				D498281D1BC3B319006B2D3E /* Assets.xcassets */,
 				D49828111BC3B319006B2D3E /* Supporting Files */,
+				D4D276061BC5084000CE6FFC /* Model */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -77,6 +87,19 @@
 				D49828121BC3B319006B2D3E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4D276061BC5084000CE6FFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4D2760D1BC50D7700CE6FFC /* Card.h */,
+				D4D2760E1BC50D7700CE6FFC /* Card.m */,
+				D4D2760F1BC50D7700CE6FFC /* Deck.h */,
+				D4D276101BC50D7700CE6FFC /* Deck.m */,
+				D4D2760A1BC50D2600CE6FFC /* PlayingCard.h */,
+				D4D2760B1BC50D2600CE6FFC /* PlayingCard.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D276111BC50D7700CE6FFC /* Card.m in Sources */,
+				D4D2760C1BC50D2600CE6FFC /* PlayingCard.m in Sources */,
 				D49828191BC3B319006B2D3E /* ViewController.m in Sources */,
 				D49828161BC3B319006B2D3E /* AppDelegate.m in Sources */,
+				D4D276121BC50D7700CE6FFC /* Deck.m in Sources */,
 				D49828131BC3B319006B2D3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
