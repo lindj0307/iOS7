@@ -17,6 +17,7 @@
 - (int)match:(NSArray *)otherCards{
     int score = 0;
     for (Card *card in otherCards) {
+        //逐个字符匹配
         if ([card.contents isEqualToString:self.contents]) {
             score = 1;
         }
