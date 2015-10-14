@@ -19,16 +19,26 @@
 
 @end
 
+- (IBAction)outLineBodySelection {
+}
 @implementation ViewController
+- (IBAction)test:(UIButton *)sender {
+}
 
 - (CardMatchingGame *)game {
     if (!_game) _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count] usingDeck:[self createDeck]];
     return _game;
 }
+- (IBAction)outLineBodySelection {
+}
+- (IBAction)outLineBodySelection {
+}
 
 - (Deck *)deck {
     if (!_deck) _deck = [self createDeck];
     return _deck;
+}
+- (IBAction)unoutLineBodySelection {
 }
 
 - (Deck *)createDeck {
