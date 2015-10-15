@@ -21,6 +21,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wwv-9x-UU5">
                                 <rect key="frame" x="19" y="562" width="49" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Outline"/>
                                 <connections>
                                     <action selector="outLineBodySelection" destination="BYZ-38-t0r" eventType="touchUpInside" id="1QP-PZ-kAW"/>
@@ -273,6 +274,7 @@
                     <connections>
                         <outlet property="body" destination="5E4-e7-FfV" id="Ib1-dE-biQ"/>
                         <outlet property="header" destination="8Rp-bZ-Ogc" id="PHW-Rk-7lk"/>
+                        <outlet property="outLineButton" destination="Wwv-9x-UU5" id="06u-cJ-9yp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -280,4 +282,5 @@
             <point key="canvasLocation" x="-475" y="276"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.4528254726" green="0.36448731480000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

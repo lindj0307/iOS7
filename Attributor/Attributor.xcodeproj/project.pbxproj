@@ -58,14 +58,9 @@
 		D4C302BD1BCDF9510024F9BE /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				D4C302C11BCDF9510024F9BE /* AppDelegate.h */,
-				D4C302C21BCDF9510024F9BE /* AppDelegate.m */,
 				D4C302C41BCDF9510024F9BE /* ViewController.h */,
 				D4C302C51BCDF9510024F9BE /* ViewController.m */,
 				D4C302C71BCDF9510024F9BE /* Main.storyboard */,
-				D4C302CA1BCDF9510024F9BE /* Assets.xcassets */,
-				D4C302CC1BCDF9510024F9BE /* LaunchScreen.storyboard */,
-				D4C302CF1BCDF9510024F9BE /* Info.plist */,
 				D4C302BE1BCDF9510024F9BE /* Supporting Files */,
 			);
 			path = Attributor;
@@ -74,6 +69,11 @@
 		D4C302BE1BCDF9510024F9BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D4C302CA1BCDF9510024F9BE /* Assets.xcassets */,
+				D4C302CC1BCDF9510024F9BE /* LaunchScreen.storyboard */,
+				D4C302CF1BCDF9510024F9BE /* Info.plist */,
+				D4C302C11BCDF9510024F9BE /* AppDelegate.h */,
+				D4C302C21BCDF9510024F9BE /* AppDelegate.m */,
 				D4C302BF1BCDF9510024F9BE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -298,6 +298,7 @@
 				D4C302D41BCDF9510024F9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
