@@ -19,8 +19,7 @@
 
 @end
 
-- (IBAction)outLineBodySelection {
-}
+
 @implementation ViewController
 - (IBAction)test:(UIButton *)sender {
 }
@@ -31,8 +30,7 @@
 }
 - (IBAction)outLineBodySelection {
 }
-- (IBAction)outLineBodySelection {
-}
+
 
 - (Deck *)deck {
     if (!_deck) _deck = [self createDeck];
@@ -42,7 +40,8 @@
 }
 
 - (Deck *)createDeck {
-    return [[PlayingCardDeck alloc] init];
+    //return [[PlayingCardDeck alloc] init];
+    return  nil;
 }
 
 - (void) setFlipCount:(int)flipCount {
