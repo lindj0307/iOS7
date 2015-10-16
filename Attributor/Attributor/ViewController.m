@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TextStatsViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *header;
@@ -16,6 +17,17 @@
 @end
 
 @implementation ViewController
+
+/* 准备跳转 */
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"Analyze"]) {
+        if ([segue.destinationViewController isKindOfClass:[TextStatsViewController class]]) {
+            TextStatsViewController *tsvc = (TextStatsViewController *)segue.destinationViewController;
+            tsvc.textToAnalyze = self.body.textStorage;
+            
+        }
+    }
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

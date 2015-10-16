@@ -13,6 +13,7 @@
 		D4C302C91BCDF9510024F9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C302C71BCDF9510024F9BE /* Main.storyboard */; };
 		D4C302CB1BCDF9510024F9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C302CA1BCDF9510024F9BE /* Assets.xcassets */; };
 		D4C302CE1BCDF9510024F9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C302CC1BCDF9510024F9BE /* LaunchScreen.storyboard */; };
+		D4EC0B441BD0F0C500E8C71D /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EC0B431BD0F0C500E8C71D /* TextStatsViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D4C302CA1BCDF9510024F9BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4C302CD1BCDF9510024F9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4C302CF1BCDF9510024F9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EC0B421BD0F0C500E8C71D /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		D4EC0B431BD0F0C500E8C71D /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				D4C302C41BCDF9510024F9BE /* ViewController.h */,
 				D4C302C51BCDF9510024F9BE /* ViewController.m */,
+				D4EC0B421BD0F0C500E8C71D /* TextStatsViewController.h */,
+				D4EC0B431BD0F0C500E8C71D /* TextStatsViewController.m */,
 				D4C302C71BCDF9510024F9BE /* Main.storyboard */,
 				D4C302BE1BCDF9510024F9BE /* Supporting Files */,
 			);
@@ -152,6 +157,7 @@
 				D4C302C61BCDF9510024F9BE /* ViewController.m in Sources */,
 				D4C302C31BCDF9510024F9BE /* AppDelegate.m in Sources */,
 				D4C302C01BCDF9510024F9BE /* main.m in Sources */,
+				D4EC0B441BD0F0C500E8C71D /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
