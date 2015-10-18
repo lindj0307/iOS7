@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wwv-9x-UU5">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wwv-9x-UU5">
                                 <rect key="frame" x="19" y="562" width="49" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Outline"/>
@@ -27,14 +27,14 @@
                                     <action selector="outLineBodySelection" destination="BYZ-38-t0r" eventType="touchUpInside" id="1QP-PZ-kAW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADB-Ac-aIm">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADB-Ac-aIm">
                                 <rect key="frame" x="523" y="562" width="66" height="30"/>
                                 <state key="normal" title="Unoutline"/>
                                 <connections>
                                     <action selector="unoutLineBodySelection" destination="BYZ-38-t0r" eventType="touchUpInside" id="fHU-ko-GeG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqE-IW-qxh">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqE-IW-qxh">
                                 <rect key="frame" x="20" y="512" width="76" height="42"/>
                                 <color key="backgroundColor" red="0.0" green="0.95294123888015747" blue="0.34117648005485535" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -49,7 +49,7 @@
                                     <action selector="changeBodySelectionColorToMatchBackgroundOfButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yez-ci-yQn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BK-Jk-6Kk">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BK-Jk-6Kk">
                                 <rect key="frame" x="101" y="512" width="75" height="42"/>
                                 <color key="backgroundColor" red="0.054901964962482452" green="0.56470590829849243" blue="0.96862751245498657" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -64,7 +64,7 @@
                                     <action selector="changeBodySelectionColorToMatchBackgroundOfButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xz1-As-tWv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXw-jx-byk">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXw-jx-byk">
                                 <rect key="frame" x="181" y="512" width="76" height="42"/>
                                 <color key="backgroundColor" red="0.04051160266" green="0.60000002379999995" blue="0.28631069539999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -79,7 +79,7 @@
                                     <action selector="changeBodySelectionColorToMatchBackgroundOfButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XJa-hO-BMM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VrE-QG-88l">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VrE-QG-88l">
                                 <rect key="frame" x="343" y="512" width="76" height="42"/>
                                 <color key="backgroundColor" red="0.92156869173049927" green="0.52941179275512695" blue="0.81568634510040283" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -94,7 +94,7 @@
                                     <action selector="changeBodySelectionColorToMatchBackgroundOfButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vyi-aT-rye"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qE-JF-Svf">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qE-JF-Svf">
                                 <rect key="frame" x="424" y="512" width="75" height="42"/>
                                 <color key="backgroundColor" red="0.92156869173049927" green="0.47058826684951782" blue="0.28235295414924622" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -109,7 +109,7 @@
                                     <action selector="changeBodySelectionColorToMatchBackgroundOfButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zWN-Bu-j6f"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K61-Av-LeJ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K61-Av-LeJ">
                                 <rect key="frame" x="262" y="512" width="76" height="42"/>
                                 <color key="backgroundColor" red="0.078431375324726105" green="0.41568630933761597" blue="0.93725496530532837" alpha="1" colorSpace="deviceRGB"/>
                                 <connections>
@@ -117,10 +117,10 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6Og-0h-waw">
-                                <rect key="frame" x="20" y="76" width="560" height="419"/>
+                                <rect key="frame" x="20" y="76" width="560" height="370"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5E4-e7-FfV">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="419"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="370"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="5E4-e7-FfV" secondAttribute="height" multiplier="280:223" id="0Ko-ep-bvd"/>
                                             <constraint firstAttribute="height" constant="446" id="NPc-Hs-YJH"/>
@@ -167,7 +167,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Uc-wv-OaP">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Uc-wv-OaP">
                                 <rect key="frame" x="504" y="512" width="76" height="42"/>
                                 <color key="backgroundColor" red="0.64705884456634521" green="0.26666668057441711" blue="0.13725490868091583" alpha="1" colorSpace="deviceRGB"/>
                                 <connections>
@@ -286,7 +286,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-62" y="274"/>
+            <point key="canvasLocation" x="-34" y="962"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="yVx-hV-FOx">
@@ -305,7 +305,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Emc-bq-GIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="550" y="-427"/>
+            <point key="canvasLocation" x="-34" y="-497"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="YDZ-w2-czM">
@@ -324,7 +324,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uUR-Tv-KI8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="502" y="-1107"/>
+            <point key="canvasLocation" x="-34" y="-1187"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bGN-kI-y1d">
@@ -343,7 +343,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nex-w5-R4V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-874" y="-649"/>
+            <point key="canvasLocation" x="-934" y="-229"/>
         </scene>
         <!--Text Stats View Controller-->
         <scene sceneID="bME-mS-LjC">
@@ -380,7 +380,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C9m-f5-cXU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="702" y="274"/>
+            <point key="canvasLocation" x="874" y="962"/>
         </scene>
         <!--CS193p-->
         <scene sceneID="Rk9-DF-fAa">
@@ -399,7 +399,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mN5-AA-kle" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-874" y="274"/>
+            <point key="canvasLocation" x="-34" y="170"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.4528254726" green="0.36448731480000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
