@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SuperCardViewController.h
 //  SuperCard
 //
 //  Created by 林东杰 on 10/18/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SuperCardViewController : UIViewController
 
 @end
-
