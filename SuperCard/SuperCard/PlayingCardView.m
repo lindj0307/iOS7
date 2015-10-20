@@ -14,7 +14,7 @@
 
 @implementation PlayingCardView
 
-#pragma mark - properties
+#pragma mark - Properties
 
 @synthesize faceCardScaleFactor = _faceCardScaleFactor;
 
