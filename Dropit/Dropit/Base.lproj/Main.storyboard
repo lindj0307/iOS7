@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Dropit View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DropitViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,44 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DGI-bf-Rxi" customClass="BezierPathView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Hzv-7G-Hdf" appends="YES" id="XbD-hd-XWI"/>
+                                    <outletCollection property="gestureRecognizers" destination="qth-S1-Rxg" appends="YES" id="PjO-TJ-Jxa"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DGI-bf-Rxi" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="5Gq-Z5-oAq"/>
+                            <constraint firstItem="DGI-bf-Rxi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SEU-27-ebT"/>
+                            <constraint firstAttribute="trailing" secondItem="DGI-bf-Rxi" secondAttribute="trailing" id="jxe-jA-zBB"/>
+                            <constraint firstItem="DGI-bf-Rxi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xb8-6A-8rA"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="gameView" destination="DGI-bf-Rxi" id="VAn-7z-4Qv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Hzv-7G-Hdf">
+                    <connections>
+                        <action selector="tap:" destination="BYZ-38-t0r" id="NhC-kw-uiY"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="qth-S1-Rxg">
+                    <connections>
+                        <action selector="panDrop:" destination="BYZ-38-t0r" id="P3e-Ke-mXO"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="570" y="324"/>
         </scene>
     </scenes>
 </document>

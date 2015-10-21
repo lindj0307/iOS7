@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DropitViewController.h
 //  Dropit
 //
 //  Created by 林东杰 on 10/20/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DropitViewController : UIViewController
 
 @end
-
