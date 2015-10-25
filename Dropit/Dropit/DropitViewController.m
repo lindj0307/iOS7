@@ -15,8 +15,9 @@
 @property (weak, nonatomic) IBOutlet BezierPathView *gameView;
 /* 创建一个动画对象 */
 @property (strong, nonatomic) UIDynamicAnimator *animator;
-/* 创建动画行为 */
+/* 创建动画行为对象 */
 @property (strong, nonatomic) DropitBehavior *dropBehavior;
+/* 创建吸附行为对象 */
 @property (strong, nonatomic) UIAttachmentBehavior *attachment;
 /* 正在落下的view */
 @property (strong, nonatomic) UIView *droppingView;

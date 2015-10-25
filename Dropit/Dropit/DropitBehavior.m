@@ -20,8 +20,8 @@
 
 @implementation DropitBehavior
 
-
 @synthesize gravity = _gravity;
+
 
 - (UIGravityBehavior *)gravity {
     if (!_gravity) {
