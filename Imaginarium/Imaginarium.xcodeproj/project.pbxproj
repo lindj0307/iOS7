@@ -13,6 +13,7 @@
 		D42C9DB41BDD1D7D008F6FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42C9DB21BDD1D7D008F6FE0 /* Main.storyboard */; };
 		D42C9DB61BDD1D7D008F6FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42C9DB51BDD1D7D008F6FE0 /* Assets.xcassets */; };
 		D42C9DB91BDD1D7D008F6FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42C9DB71BDD1D7D008F6FE0 /* LaunchScreen.storyboard */; };
+		D42C9DC21BDD1E24008F6FE0 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9DC11BDD1E24008F6FE0 /* ImageViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D42C9DB51BDD1D7D008F6FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D42C9DB81BDD1D7D008F6FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D42C9DBA1BDD1D7D008F6FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42C9DC01BDD1E24008F6FE0 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		D42C9DC11BDD1E24008F6FE0 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D42C9DB01BDD1D7D008F6FE0 /* ViewController.m */,
 				D42C9DB21BDD1D7D008F6FE0 /* Main.storyboard */,
 				D42C9DA91BDD1D7D008F6FE0 /* Supporting Files */,
+				D42C9DC01BDD1E24008F6FE0 /* ImageViewController.h */,
+				D42C9DC11BDD1E24008F6FE0 /* ImageViewController.m */,
 			);
 			path = Imaginarium;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				D42C9DB11BDD1D7D008F6FE0 /* ViewController.m in Sources */,
 				D42C9DAE1BDD1D7D008F6FE0 /* AppDelegate.m in Sources */,
+				D42C9DC21BDD1E24008F6FE0 /* ImageViewController.m in Sources */,
 				D42C9DAB1BDD1D7D008F6FE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
