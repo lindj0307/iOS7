@@ -16,26 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuQ-Cz-FoJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuQ-Cz-FoJ">
                                 <rect key="frame" x="272" y="172" width="56" height="30"/>
                                 <animations/>
-                                <state key="normal" title="美女1"/>
+                                <state key="normal" title="Picture1"/>
                                 <connections>
                                     <segue destination="suJ-2s-K4o" kind="show" identifier="picture1" id="tqb-U1-0Da"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8b-io-F6U">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8b-io-F6U">
                                 <rect key="frame" x="271" y="218" width="58" height="30"/>
                                 <animations/>
-                                <state key="normal" title="美女2"/>
+                                <state key="normal" title="Picture2"/>
                                 <connections>
                                     <segue destination="suJ-2s-K4o" kind="show" identifier="picture2" id="B0E-er-SDU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzu-XX-n2v">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzu-XX-n2v">
                                 <rect key="frame" x="271" y="266" width="58" height="30"/>
                                 <animations/>
-                                <state key="normal" title="美女3"/>
+                                <state key="normal" title="Picture3"/>
                                 <connections>
                                     <segue destination="suJ-2s-K4o" kind="push" identifier="picture3" id="MxN-Zs-fC7"/>
                                 </connections>

@@ -74,12 +74,12 @@
 		D42C9DA91BDD1D7D008F6FE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D42C9DB51BDD1D7D008F6FE0 /* Assets.xcassets */,
-				D42C9DB71BDD1D7D008F6FE0 /* LaunchScreen.storyboard */,
+				D42C9DAA1BDD1D7D008F6FE0 /* main.m */,
 				D42C9DBA1BDD1D7D008F6FE0 /* Info.plist */,
 				D42C9DAC1BDD1D7D008F6FE0 /* AppDelegate.h */,
 				D42C9DAD1BDD1D7D008F6FE0 /* AppDelegate.m */,
-				D42C9DAA1BDD1D7D008F6FE0 /* main.m */,
+				D42C9DB51BDD1D7D008F6FE0 /* Assets.xcassets */,
+				D42C9DB71BDD1D7D008F6FE0 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -304,6 +304,7 @@
 				D42C9DBF1BDD1D7D008F6FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
