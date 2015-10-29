@@ -16,6 +16,7 @@
 		D4BF26451BE0C94100184C29 /* FlickrPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BF26441BE0C94100184C29 /* FlickrPhotosTVC.m */; settings = {ASSET_TAGS = (); }; };
 		D4BF26481BE0CAA000184C29 /* JustPostedFlikrPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BF26471BE0CAA000184C29 /* JustPostedFlikrPhotosTVC.m */; settings = {ASSET_TAGS = (); }; };
 		D4BF264D1BE0CC3D00184C29 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BF264B1BE0CC3D00184C29 /* FlickrFetcher.m */; settings = {ASSET_TAGS = (); }; };
+		D4BF26501BE1A6CA00184C29 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BF264F1BE1A6CA00184C29 /* ImageViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		D4BF26491BE0CC3D00184C29 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
 		D4BF264A1BE0CC3D00184C29 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
 		D4BF264B1BE0CC3D00184C29 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		D4BF264E1BE1A6CA00184C29 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		D4BF264F1BE1A6CA00184C29 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				D4BF26441BE0C94100184C29 /* FlickrPhotosTVC.m */,
 				D4BF26461BE0CAA000184C29 /* JustPostedFlikrPhotosTVC.h */,
 				D4BF26471BE0CAA000184C29 /* JustPostedFlikrPhotosTVC.m */,
+				D4BF264E1BE1A6CA00184C29 /* ImageViewController.h */,
+				D4BF264F1BE1A6CA00184C29 /* ImageViewController.m */,
 				D4BF26351BE0C91B00184C29 /* Main.storyboard */,
 				D4BF264C1BE0CC3D00184C29 /* Flickr Fetcher */,
 				D4BF262C1BE0C91B00184C29 /* Supporting Files */,
@@ -180,6 +185,7 @@
 				D4BF26481BE0CAA000184C29 /* JustPostedFlikrPhotosTVC.m in Sources */,
 				D4BF26311BE0C91B00184C29 /* AppDelegate.m in Sources */,
 				D4BF264D1BE0CC3D00184C29 /* FlickrFetcher.m in Sources */,
+				D4BF26501BE1A6CA00184C29 /* ImageViewController.m in Sources */,
 				D4BF262E1BE0C91B00184C29 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
